@@ -1,8 +1,8 @@
 import React from 'react';
 import { TiInfoLarge } from 'react-icons/ti';
 
-const ButtonInfo = () => (
-  <button className="button-info">
+const ButtonInfo = (props) => (
+  <button className="button-info" onClick={props.showHideModal}>
     <TiInfoLarge className="button-info__icon" />
   </button>
 );

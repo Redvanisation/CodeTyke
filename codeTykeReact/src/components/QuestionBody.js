@@ -30,7 +30,7 @@ const QuestionBody = (props) => {
           <div id="questionHeader">
             {props.currentQuestion.title}
           </div>
-          <ButtonInfo />
+          <ButtonInfo showHideModal={props.showHideModal} />
           <div id="questionSubHeader">
             {props.currentQuestion.additionalInfo}
           </div>

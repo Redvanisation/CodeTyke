@@ -26,7 +26,7 @@ const LearningModule = (props) => {
 
   if(currentQuestion.id){
     var progressBar = <ProgressBar currentQuestion={currentQuestion}/>
-    var questionBody = <QuestionBody currentQuestion={currentQuestion} getQuestion={getQuestion} loading={loading} setLoading={setLoading}/>
+    var questionBody = <QuestionBody currentQuestion={currentQuestion} getQuestion={getQuestion} loading={loading} setLoading={setLoading} showHideModal={props.showHideModal} />
   } else {
     var pageLoader = <PageLoader />;
   }
