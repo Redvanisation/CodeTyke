@@ -2,6 +2,7 @@ import React from 'react';
 import QuestionSelectionArea from './QuestionSelectionArea';
 import Button from './Button';
 import ButtonInfo from './ButtonInfo';
+import Modal from './Modal';
 
 
 const QuestionBody = (props) => {

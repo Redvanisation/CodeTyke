@@ -1,0 +1,36 @@
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,.3);
+  z-index: 10;
+  text-align: center;
+  
+  &__body {
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: .5rem 3rem 2rem;
+
+    &:before{
+      content: "";
+      position: absolute;
+      top: -15px;
+      right: 10px;
+      z-index: 1;
+      border: solid 8px transparent;
+      border-bottom-color: #FFF;
+    }
+
+    &--title {
+      color: #9C51FF;
+    }
+  }
+}

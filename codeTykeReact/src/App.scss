@@ -1,3 +1,5 @@
+// @import 'scss/mixins/positioning';
+
 @import 'scss/shell/Header';
 @import 'scss/shell/Footer';
 @import 'scss/shell/PageLoader';
@@ -5,6 +7,7 @@
 @import 'scss/utils/FlexStyles';
 
 @import 'scss/components/ProgressBar';
+@import 'scss/components/Modal';
 
 @import 'scss/buttons/Button';
 
@@ -12,6 +15,7 @@ body{
   background-image: url("/assets/background.png");
   background-position: center;
   background-size: cover;
+  box-sizing: border-box;
 }
 
 #questionsBox {

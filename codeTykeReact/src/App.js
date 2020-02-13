@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import LearningModule from './components/LearningModule';
 import './App.scss';
+import Modal from './components/Modal';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <div>
+      <Modal />
       <Navbar />
       <div id="mainWrapper">
         {learningModule}
