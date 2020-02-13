@@ -1,6 +1,7 @@
 import React from 'react';
 import QuestionSelectionArea from './QuestionSelectionArea';
 import Button from './Button';
+import ButtonInfo from './ButtonInfo';
 
 
 const QuestionBody = (props) => {
@@ -28,6 +29,7 @@ const QuestionBody = (props) => {
           <div id="questionHeader">
             {props.currentQuestion.title}
           </div>
+          <ButtonInfo />
           <div id="questionSubHeader">
             {props.currentQuestion.additionalInfo}
           </div>

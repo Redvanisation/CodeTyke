@@ -11,11 +11,40 @@
   margin-right: 20px;
 }
 
+.button-info {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: #00B8F4;
+  border-radius: 100%;
+  padding: 15px;
+  border: none;
+  float: right;
+  display: none;
+  cursor: pointer;
+  
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F7F7F7;
+    font-size: 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .submitButton {
     float: unset;
     width: 90%;
     margin: 0 auto;
+  }
+
+  .button-info {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
 

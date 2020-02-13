@@ -32,7 +32,7 @@ const LearningModule = (props) => {
   }
 
   return (
-    <div class="learning-module">
+    <div className="learning-module">
       {progressBar}
       {questionBody}
       {pageLoader}

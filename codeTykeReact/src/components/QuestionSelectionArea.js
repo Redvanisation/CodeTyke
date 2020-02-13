@@ -18,11 +18,11 @@ const QuestionSelectionArea = (props) => {
 
     return(
       <div id="questionsBox">
-        <div class="flex-space-evenly">
-          <div class="flex-row">
+        <div className="flex-space-evenly">
+          <div className="flex-row">
             {firstTwoAnswers}
           </div>
-          <div class="flex-row">
+          <div className="flex-row">
             {secondTwoAnswers}
           </div>
         </div>
